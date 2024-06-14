@@ -1,0 +1,11 @@
+OUTPUT_DIR: "/dockerdata/path/log/SeqNet-DG/CUHK-SYSU/"
+INPUT:
+  DATASET: "CUHK-SYSU"
+  DATA_ROOT: "/dockerdata/path/data/CUHK-SYSU/"
+SOLVER:
+  MAX_EPOCHS: 10
+MODEL:
+  LOSS:
+    LUT_SIZE: 10141 #10624 #15673
+    #5532
+    CQ_SIZE: 10000

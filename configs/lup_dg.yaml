@@ -1,0 +1,10 @@
+OUTPUT_DIR: "/dockerdata/path/log/SeqNet-DG/LUP"
+INPUT:
+  DATASET: "LUP-DG"
+  DATA_ROOT: "/path/public/frames/"
+SOLVER:
+  MAX_EPOCHS: 20
+MODEL:
+  LOSS:
+    LUT_SIZE: 10141 #10624 #15673
+    CQ_SIZE: 10000

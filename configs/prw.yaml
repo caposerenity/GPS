@@ -1,0 +1,11 @@
+OUTPUT_DIR: "/dockerdata/path/log/SeqNet-DG/PRW/"
+INPUT:
+  DATASET: "PRW"
+  DATA_ROOT: "/dockerdata/path/data/PRW/"
+SOLVER:
+  MAX_EPOCHS: 18
+MODEL:
+  LOSS:
+    LUT_SIZE: 10141 #15673
+    # 483
+    CQ_SIZE: 10000
